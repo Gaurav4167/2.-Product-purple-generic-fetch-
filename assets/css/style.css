@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    background-color: rgb(144, 63, 144);
+}
+#mainCard{
+    background-color: rgb(227, 210, 227);
+}
+
+#card-top-header{
+    border-bottom: 1px solid black;
+}
+#double-border{
+    margin-top: 2px;
+    border-bottom: 1px solid black;
+}
+.productRow{
+    margin: 2px;
+    border-bottom: 1px solid black;
+}
+#addButtonMain{
+    border-radius: 3px;
+}
+.price{
+    margin-top: -6px;
+    font-size: 12px;
+}
+#crossMark {
+    position: absolute;
+    font-size: 30px;
+    top: 5px;
+    right: 10px;
+    padding: 5px;
+}
+.formColumn {
+    margin-top: -100vh;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s linear;
+}
+
+#addBtn, #updateBtn, #clearBtn{
+    height: 30%;
+    bottom: -47px;
+}
+
+#spinner{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, .8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
